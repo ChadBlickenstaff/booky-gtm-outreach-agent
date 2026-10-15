@@ -45,12 +45,4 @@ Workflow diagram (workflow.png)
 * API credentials
 * Unverified performance metrics
 * Features that haven’t been built
-
-⸻
-
-Next Steps
-
-1. Upload the Booky mascot to assets/booky.png.
-2. Create or upload the workflow diagram as assets/workflow.png.
-3. Have me create the README directly through GitHub.
-4. Pin Booky as your first repository.
+  
