@@ -1,48 +1,55 @@
-Booky | GTM Outreach Agent
+# Booky | GTM Outreach Agent
 
-Built for Booked, Booky turns fragmented local-business data into actionable prospect research and personalized outreach.
+![Booky](assets/booky.png)
 
-It connects research, enrichment, CRM context, and AI-assisted workflows into one repeatable process, with human review before sending.
+**Turning fragmented local-business data into actionable prospect research and personalized outreach.**
 
-The Problem
+Built for [Booked](https://itsbooked.io/), Booky connects prospect research, enrichment, CRM context, and AI-assisted workflows into a repeatable outreach process, with human review before sending.
 
-Traditional B2B enrichment struggles with local businesses. Finding decision-makers and identifying relevant outreach angles often requires manual research across fragmented sources.
+## The Problem
 
-How It Works
+Traditional B2B enrichment tools often struggle with local businesses.
 
-Google Maps → Clay → Claude → Attio → ChatGPT → Gmail
+Finding the right decision-maker, identifying contact information, and developing a relevant outreach angle requires research across fragmented sources.
 
-Explain how each tool contributes to the workflow.
+The challenge isn't just finding more prospects. It's turning incomplete information into useful context for personalized outreach.
 
-What I Built
+## How It Works
 
-* Prospect research and enrichment workflows
-* CRM-connected outreach agent
-* Account-specific personalization
-* Human review before sending
+**Google Maps → Clay → Claude → Attio → ChatGPT → Gmail**
 
-What I Learned
+| Tool | Role |
+|------|------|
+| Google Maps | Discover local businesses and identify potential prospects |
+| Clay | Enrich business records and organize prospect research |
+| Claude | Research business websites and extract missing contact information |
+| Attio | Centralize account records, contacts, and CRM context |
+| ChatGPT | Turn account context into personalized outreach drafts |
+| Gmail | Deliver human-reviewed outreach |
 
-Connecting fragmented data sources into a useful GTM workflow requires more than automation. Data quality, context, and human judgment determine whether the output is actionable.
+The workflow connects research, enrichment, and execution while keeping human judgment in the loop.
 
-3. Visuals
+## What I Built
 
-Booky mascot (booky.png)
+- **Prospect research and enrichment:** Workflows for identifying local businesses and finding decision-makers when traditional enrichment falls short.
+- **CRM-connected outreach:** Connected Attio account context to ChatGPT to support personalized outreach.
+- **Account-specific personalization:** Research-driven messaging based on each business's digital presence and potential opportunities.
+- **Human-in-the-loop execution:** Outreach drafts are reviewed before sending rather than automatically delivered.
 
-* Place near the top of the README.
-* Gives the project a recognizable identity.
+## What I Learned
 
-Workflow diagram (workflow.png)
+**Better outreach starts with better context, not better prompts.**
 
-* Shows how information moves between tools.
-* Distinguishes automated steps from human review.
-* Reflects what’s operational today, not planned functionality.
+Building Booky reinforced three principles:
 
-4. What to Exclude
+1. **Data quality determines output quality.** AI cannot reliably personalize outreach without useful account information.
+2. **Integrations create leverage.** Connecting research, enrichment, and CRM context reduces repetitive work and fragmented workflows.
+3. **Human judgment remains essential.** Automation should support decisions, not replace them.
 
-* Proprietary prompts and workflows
-* Customer or prospect information
-* API credentials
-* Unverified performance metrics
-* Features that haven’t been built
-  
+The most interesting challenge wasn't generating emails. It was designing a system that turns fragmented information into actionable GTM context.
+
+---
+
+**Built for Booked** | GTM Systems, Data & AI
+
+*This repository documents the system's architecture and design principles. Proprietary workflows, prompts, credentials, and customer data are intentionally excluded.*
